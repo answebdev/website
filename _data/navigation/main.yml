@@ -1,17 +1,7 @@
-- name: Events
-  link: /events
-
-- name: Projects
-  link: /projects
-
-- name: Press
-  link: /#press
+- name: Our Work
 
 - name: Join Us
-  link: /join
+
+- name: Get in Touch
 
 - name: Toolkit
-  link: /toolkit
-
-- name: Wins
-  link: /wins
