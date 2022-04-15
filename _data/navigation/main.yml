@@ -1,18 +1,7 @@
-- name: Events
-  link: /events
-
-- name: Projects
-  link: /projects
-
-# Link below to remain inactive until About page is completed and live
-# - name: About Us
-#   link: /about
+- name: Our Work
 
 - name: Join Us
-  link: /join
+
+- name: Get in Touch
 
 - name: Toolkit
-  link: /toolkit
-
-- name: Wins
-  link: /wins

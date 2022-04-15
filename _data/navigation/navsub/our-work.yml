@@ -1,0 +1,14 @@
+- page: About Us
+  url: /about
+
+- page: Program Areas
+  url: /program-areas
+
+- page: Projects
+  url: /projects
+
+- page: Our Wins
+  url: /wins
+
+- page: Press
+  url: /#press

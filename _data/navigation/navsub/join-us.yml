@@ -1,0 +1,14 @@
+- page: Donate
+  url: /donate
+
+- page: Volunteer with Us
+  url: /#volunteer
+
+- page: Partner with Us
+  url: /#partner
+
+- page: Advise Us
+  url: /#advise
+
+- page: Submit your Pitch
+  url: mailto:team@hackforla.org?subject=Submitting my pitch to Hack for LA

@@ -18,3 +18,50 @@
     }
   }
 }
+
+.main-nav-items {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.main-nav-items:hover {
+  border-bottom: 3px solid $color-red;
+  padding-bottom: 17px;
+}
+
+.inline-list li {
+  position: relative;
+}
+
+.inline-list li .dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding: 20px 0;
+  top: 100%;
+  transform: translateY(18px);
+  left: 0;
+  width: 225px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  z-index: 111;
+  transition: 0.4s all;
+}
+
+.inline-list li:hover .dropdown {
+  visibility: visible;
+  opacity: 93%;
+}
+
+.dropdown-item {
+  padding: 5px 0 5px 15px;
+  font-weight: 400;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
