@@ -1,5 +1,5 @@
-- page: Contact Us
+- name: Contact Us
   url: /#get-in-touch
 
-- page: Events
+- name: Events
   url: /events
