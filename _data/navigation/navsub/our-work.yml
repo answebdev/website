@@ -1,14 +1,31 @@
-- name: About Us
-  url: /about
+position: 1
+menu: Our Work
+submenu:
+  - name: About Us
+    url: /about
 
-- name: Program Areas
-  url: /program-areas
+  - name: Program Areas
+    url: /program-areas
 
-- name: Projects
-  url: /projects
+  - name: Projects
+    url: /projects
 
-- name: Our Wins
-  url: /wins
+  - name: Our Wins
+    url: /wins
 
-- name: Press
-  url: /#press
+  - name: Press
+    url: /about#news
+# - name: About Us
+#   url: /about
+
+# - name: Program Areas
+#   url: /program-areas
+
+# - name: Projects
+#   url: /projects
+
+# - name: Our Wins
+#   url: /wins
+
+# - name: Press
+#   url: /#press

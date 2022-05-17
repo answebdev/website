@@ -1,5 +1,41 @@
 <nav class="header-nav" id="headerNav">
   <ul class="inline-list" id="mobileNavLink">
+    {% for order in (1..4) %}
+
+    {% for item in site.data.navigation.navsub %}
+
+    <li class="{{ item.list_class_name }}">
+      <span class="main-nav-items">
+        {% if item.position == order %}
+
+        <!-- {% if item.icon %} {%- include {{ site.baseurl
+        }}{{ item.icon }} -%} {% endif %} -->
+
+        {{- item.menu -}}
+        {% endif %}
+      </span>
+
+      <div class="dropdown">
+        {% for dropdown_item in site.data.navigation.navsub %}
+        {% assign navsub = dropdown_item[1] %}
+
+        {% for dropitem in navsub %}
+        <a class="dropdown-item" href="{{ dropitem.url }}">{{ dropitem.name }}</a>
+        {% endfor %}
+
+        {% endfor %}
+      </div>
+
+    </li>
+
+
+    {% endfor %}
+    {% endfor %}
+  </ul>
+</nav>
+
+<!-- <nav class="header-nav" id="headerNav">
+  <ul class="inline-list" id="mobileNavLink">
     {% for item in site.data.navigation.main %}
     <li class="{{ item.list_class_name }}">
       <span class="main-nav-items">
@@ -23,4 +59,4 @@
 
     {% endfor %}
   </ul>
-</nav>
+</nav> -->

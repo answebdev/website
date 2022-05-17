@@ -1,14 +1,31 @@
-- name: Donate
-  url: /donate
+position: 2
+menu: Join Us
+submenu:
+  - name: Donate
+    url: /donate
 
-- name: Volunteer with Us
-  url: /#volunteer
+  - name: Volunteer with Us
+    url: /join#volunteer
 
-- name: Partner with Us
-  url: /#partner
+  - name: Partner with Us
+    url: /join#partner
 
-- name: Advise Us
-  url: /#advise
+  - name: Advise Us
+    url: /join#advise
 
-- name: Submit your Pitch
-  url: mailto:team@hackforla.org?subject=Submitting my pitch to Hack for LA
+  - name: Submit your Pitch
+    url: mailto:team@hackforla.org?subject=Submitting my pitch to Hack for LA
+# - name: Donate
+#   url: /donate
+
+# - name: Volunteer with Us
+#   url: /#volunteer
+
+# - name: Partner with Us
+#   url: /#partner
+
+# - name: Advise Us
+#   url: /#advise
+
+# - name: Submit your Pitch
+#   url: mailto:team@hackforla.org?subject=Submitting my pitch to Hack for LA

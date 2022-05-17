@@ -1,5 +1,13 @@
-- name: Contact Us
-  url: /#get-in-touch
+position: 3
+menu: Get in Touch
+submenu:
+  - name: Contact Us
+    url: /#get-in-touch
 
-- name: Events
-  url: /events
+  - name: Events
+    url: /events
+# - name: Contact Us
+#   url: /#get-in-touch
+
+# - name: Events
+#   url: /events

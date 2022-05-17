@@ -1,5 +1,16 @@
-- name: Guides
-  url: /#guides
+position: 4
+menu: Toolkit
+submenu:
+  - name: Guides
+    url: /toolkit#guides
 
-- name: External Resources
-  url: /#external-resources
+  - name: External Resources
+    url: /toolkit#external-resources
+# position: 4
+# menu: Toolkit
+# submenu:
+#   - name: Guides
+#     url: /toolkit#guides
+
+#   - name: External Resources
+#     url: /toolkit#external-resources
